@@ -12,7 +12,7 @@ CFLAGS = -Wall -Werror -Wextra
 CPPFLAGS = -I includes -I libft/includes
 
 LDFLAGS = -L libft
-LDLIBS = -I minilibx_macos/ -O2 -lft -lm -L minilibx_macos/ -lmlx -framework OpenGL -framework AppKit
+LDLIBS = -I minilibx_macos/ -lft -lm -L minilibx_macos/ -lmlx -framework OpenGL -framework AppKit
 
 SRC = $(addprefix $(SRC_PATH)/,$(SRC_NAME))
 OBJ = $(addprefix $(OBJ_PATH)/,$(OBJ_NAME))
